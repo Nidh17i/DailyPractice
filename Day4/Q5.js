@@ -11,5 +11,6 @@
 // ```
 
 let prop="score";
-const player={name:"max",[prop]:95};
-console.log(player.score);
+let Fname="name";
+const player={[Fname]:"max",[prop]:95};
+console.log(`${player.name} scored ${player.score} runs`);
