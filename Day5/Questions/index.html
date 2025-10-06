@@ -1,0 +1,205 @@
+
+<h1> DOM Practice</h1>
+
+<!--### **1. Selecting Elements**
+
+Given an HTML snippet:
+
+```html
+<h1 id="title">Hello</h1>
+<p class="desc">Welcome to training</p>
+```
+
+**Task:**
+
+* Select the `<h1>` using `getElementById` and change its text to `"Hello Interns!"`.
+* Select the `<p>` using `querySelector` and change its text color to `"blue"`.
+
+---
+
+### **2. Changing Content & Styles**
+
+Given:
+
+```html
+<div id="box">Old Content</div>
+```
+
+**Task:**
+
+* Change the content to `"New Content Loaded"`.
+* Add a red border (`2px solid red`) using JavaScript.
+
+---
+
+### **3. Creating and Appending Elements**
+
+**Task:**
+
+* Dynamically create a `<li>` element with text `"Intern 1"`.
+* Append it to an existing `<ul id="internList">`.
+
+Example HTML:
+
+```html
+<ul id="internList">
+  <li>Existing Intern</li>
+</ul>
+```
+
+After JS execution, list should have both items.
+
+---
+
+### **4. Removing Elements**
+
+Given:
+
+```html
+<ul id="tasks">
+  <li>Task 1</li>
+  <li id="removeMe">Task 2</li>
+</ul>
+```
+
+**Task:**
+
+* Remove the `<li>` with id `"removeMe"`.
+
+  ### **5. Event Listener – Button Click**
+
+Given:
+
+```html
+<button id="clickMe">Click Me</button>
+<p id="output"></p>
+```
+
+**Task:**
+
+* When the button is clicked, change the `<p>` text to `"Button was clicked!"`.
+
+### **6. Event Listener – Mouse Hover**
+
+Given:
+
+```html
+<div id="hoverBox" style="width:100px; height:100px; background:gray;"></div>
+```
+
+**Task:**
+
+* When the mouse hovers over the box, change its background color to `"green"`.
+* When the mouse leaves, change it back to `"gray"`.
+
+---
+
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Practice</title>
+</head>
+<body>
+
+<h1 id="title">Hello</h1>
+<p class="desc">Welcome to training</p>
+
+<div id="box">Old Content</div>
+
+<ul id="internList">
+  <li>Existing Intern</li>
+</ul>
+
+<ul id="task">
+  <li>Task 1</li>
+  <li id="removeMe">Task 2</li>
+</ul>
+
+<button id="clickMe">Click Me</button>
+<p id="output"></p>
+
+
+<div id="hoverBox" style="width:100px; height:100px; background:gray;"></div>
+  
+  <!--<input id="data"> </input>
+  <button id="b">clickMe</button>-->
+
+<!--- ### **7. Form Validation – Required Field**
+
+HTML:
+
+```html
+<form id="signupForm">
+  <input type="text" id="username" placeholder="Enter username" />
+  <button type="submit">Submit</button>
+  <p id="errorMsg"></p>
+</form>
+```
+
+**Task:**
+
+* Prevent form submission if `username` is empty.
+* Show error message `"Username is required"` in `<p id="errorMsg">`.
+* If filled, clear error and log `"Form submitted!"`.
+
+---
+
+### **8. Form Validation – Simple Email Check**
+
+HTML:
+
+```html
+<form id="emailForm">
+  <input type="text" id="email" placeholder="Enter email" />
+  <button type="submit">Submit</button>
+  <p id="emailError"></p>
+</form>
+```
+
+**Task:**
+
+* Validate that email contains `"@"`.
+* If not, show `"Invalid email format"`.
+* Otherwise log `"Valid email"`.
+
+---
+
+
+-->
+<hr>
+<form id="signupForm">
+  <input type="text" id="username" placeholder="Enter UserName"/>
+  <button type="submit" id="submit">Submit</button>
+  <p id="errorMsg"></p>
+
+</form>
+<hr>
+<form id="emailForm">
+  <input type="text" id="email" placeholder="Enter email" />
+  <button type="submit">Submit</button>
+  <p id="emailError"></p>
+
+  <!--### **9. Timers (setTimeout, setInterval, clearInterval)**
+
+* Create a countdown timer:
+
+    * Have a ```<p> that shows: "Countdown: 10"```.
+    * On button click:
+        * Start a countdown from 10 → 0 using setInterval.
+        * When it reaches 0, show "Time’s up!" and stop the interval (clearInterval).-->
+
+        <h3>CountDown Timer</h3>
+        <p id="countDown">10</p>
+        <button id='startbtn'>Start</button>
+        
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+

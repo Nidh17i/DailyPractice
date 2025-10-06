@@ -9,7 +9,8 @@ let rev= ans.reverse()
  console.log(rev);
 
 //   3. Remove the first word and last word.
- ans.shift();
- ans.pop();
+  ans.shift();
+  ans.pop();
  console.log(ans);
+ 
 

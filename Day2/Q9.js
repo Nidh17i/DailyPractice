@@ -10,6 +10,6 @@ let sort=arr.sort((a,b)=>b-a);
 console.log(sort);
 //   3. Find the average marks. 
 let reduce=arr.reduce((acc,curr)=>curr+acc,0);
-let average=reduce/2;
+let average=reduce/arr.length;
 console.log(average);
 
