@@ -26,18 +26,7 @@ if(Charcount.innerHTML<0){
 
 // random image 
 
-let image=document.querySelector('#img');
-let arr=[
-    "images/b3.jpg",
-    "images/b4.jpeg",
-    "images/b5.jpg",
-    "images/b6.jpeg",
-    "images/bb.jpg",
-    "images/mouse.jpg"];
-
-
-image.addEventListener('click',()=>{
-   let image = document.querySelector('#img');
+let image = document.querySelector('#img');
 let arr = [
   "images/b3.jpg",
   "images/b4.jpeg",
@@ -49,9 +38,9 @@ let arr = [
 
 image.addEventListener('click', () => {
   let randomIndex = Math.floor(Math.random() * arr.length);
-  image.src = arr[randomIndex]; 
+  image.src = arr[randomIndex];
 });
-})
+
 
 //Auto-Hide Notification**
 let showNotification=document.querySelector('#bn');
