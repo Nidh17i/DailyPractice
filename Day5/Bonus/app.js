@@ -30,7 +30,9 @@ let image = document.querySelector('#img');
 let arr = [
   "images/b3.jpg",
   "images/b4.jpeg",
-  "images/b5.jpg",
+   "images/p.jpg",
+  "images/tiger.jpg",
+  "images/zebra.jpeg",
   "images/b6.jpeg",
   "images/bb.jpg",
   "images/mouse.jpg"
