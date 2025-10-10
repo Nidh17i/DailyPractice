@@ -51,12 +51,12 @@ console.log(`${name} lives in ${city}`);
 //    Select a button `#changeColor` and a div `#box`.
 //    When the button is clicked, change the div’s background color to blue.
 
-// let btn=document.querySelector('#changeColor');
-// let box=document.querySelector('#box');
+ let btn=document.querySelector('#changeColor');
+let box=document.querySelector('#box');
 
-// btn.addEventListener('click',()=>{
-//     box.style.backgroundColor='blue';
-// })
+ btn.addEventListener('click',()=>{
+    box.style.backgroundColor='blue';
+})
 // 5. **Array Methods**
 //    Given:
 // const scores = [45, 72, 88, 30, 95];

@@ -23,19 +23,19 @@ let btn=document.getElementById('btn');
 
 btn.addEventListener('click',()=>{
     
+    let data=div.createElement('div');
+    first.innerText=data;
+    second.innerText=data;
+
+
+
+
+
+    
+
 
 })
 
-
-/*<input id="first">Name</input>
-    <input id="second">price</input>
-    </div>
-    <button>Add Product</button>
-
-     
-     
-    <script src="app.js"></script>
-    
 
 // * DOM selection & event binding → 5
 // * Add row & delete row functionality → 10
@@ -79,7 +79,7 @@ async function FetchData(){
      }
      FetchData().then((msg)=>console.log(msg))
      
- console.log('end')
+ console.log('end');
 
 
 // **Expected Console Order:**
@@ -100,5 +100,3 @@ async function FetchData(){
 // * Correct execution order → 10
 // * Proper use of Promise, setTimeout, and async/await → 5
 // * Fetch with error handling → 5
-
-// ---
